@@ -13,7 +13,7 @@ import com.projectsant.course.entities.Product;
 import com.projectsant.course.services.ProductService;
 
 @RestController
-@RequestMapping(value = "/Products")
+@RequestMapping(value = "/products")
 public class ProductResources {
 	
 	@Autowired
